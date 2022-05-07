@@ -48,7 +48,7 @@ function reiniciarJogo() {
 }
 
 
-
+//Função da Linha 1, Coluna 1.
 function funcaoCampo1() {
     if (contadorEventos % 2 === 0) {
         textoP1.innerHTML = 'X';
@@ -108,11 +108,8 @@ function funcaoCampo1() {
             document.getElementById('5').style.backgroundColor = 'green';
             document.getElementById('9').style.backgroundColor = 'green';
 
-
-
         }
     }
-
 
     contadorEventos += 1;
     campo1.classList.add('desabilitar-clique');
@@ -121,9 +118,7 @@ function funcaoCampo1() {
 
 
 
-
-
-
+//Função da Linha 1, Coluna 2.
 function funcaoCampo2() {
     if (contadorEventos % 2 === 0) {
         textoP2.innerHTML = 'X';
@@ -175,6 +170,8 @@ function funcaoCampo2() {
 
 }
 
+
+//Função da Linha 1, Coluna 3.
 function funcaoCampo3() {
     if (contadorEventos % 2 === 0) {
         textoP3.innerHTML = 'X';
@@ -246,6 +243,8 @@ function funcaoCampo3() {
 
 }
 
+
+//Função da Linha 2, Coluna 1.
 function funcaoCampo4() {
     if (contadorEventos % 2 === 0) {
         textoP4.innerHTML = 'X';
@@ -299,6 +298,8 @@ function funcaoCampo4() {
 
 }
 
+
+//Função da Linha 2, Coluna 2.
 function funcaoCampo5() {
     if (contadorEventos % 2 === 0) {
         textoP5.innerHTML = 'X';
@@ -392,6 +393,8 @@ function funcaoCampo5() {
 
 }
 
+
+//Função da Linha 2, Coluna 3.
 function funcaoCampo6() {
     if (contadorEventos % 2 === 0) {
         textoP6.innerHTML = 'X';
@@ -447,7 +450,7 @@ function funcaoCampo6() {
 }
 
 
-
+//Função da Linha 3, Coluna 1.
 function funcaoCampo7() {
     if (contadorEventos % 2 === 0) {
         textoP7.innerHTML = 'X';
@@ -523,7 +526,7 @@ function funcaoCampo7() {
 
 
 
-
+//Função da Linha 3, Coluna 2.
 function funcaoCampo8() {
     if (contadorEventos % 2 === 0) {
         textoP8.innerHTML = 'X';
@@ -578,6 +581,7 @@ function funcaoCampo8() {
 }
 
 
+//Função da Linha 3, Coluna 3.
 function funcaoCampo9() {
     if (contadorEventos % 2 === 0) {
         textoP9.innerHTML = 'X';
