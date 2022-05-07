@@ -1,5 +1,6 @@
+//Projeto completo em: https://github.com/TucanoWeb/projetos/tree/master/Jogos/jogo-da-velha 
+
 var contadorEventos = 0;
-var soma = 0;
 
 const reiniciar = document.getElementById('botaoReiniciar');
 
