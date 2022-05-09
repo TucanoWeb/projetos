@@ -59,22 +59,22 @@ function proximoDesafio() {
     if (sequenciaInicial[verificaFinalArray] == numeroRandomico) {
 
         if (numeroRandomico == 1) {
-            numeroRandomico = numeroRandomico + 1;
+            numeroRandomico = numeroRandomico + 2;
         }
 
 
         if (numeroRandomico == 2) {
-            numeroRandomico = numeroRandomico + 1;
+            numeroRandomico = numeroRandomico + 2;
         }
 
 
         if (numeroRandomico == 3) {
-            numeroRandomico = numeroRandomico + 1;
+            numeroRandomico = numeroRandomico - 1;
         }
 
 
         if (numeroRandomico == 4) {
-            numeroRandomico = numeroRandomico - 1;
+            numeroRandomico = numeroRandomico - 3;
         }
     }
 
