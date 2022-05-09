@@ -11,6 +11,9 @@ var indexValidaCores = 0;
 var cor = 1;
 var vitoria = 0;
 
+var numeroRandomico = 0;
+var numeroRandomicoArray = 0;
+
 var i = 0;
 
 
@@ -48,9 +51,35 @@ function reiniciar() {
 
 function proximoDesafio() {
 
-    var numeroRandomico = Math.floor(Math.random() * 4) + 1;
+    numeroRandomico = Math.floor(Math.random() * 4) + 1;
+    verificaFinalArray = sequenciaInicial.length - 1;
+
+
+
+    if (sequenciaInicial[verificaFinalArray] == numeroRandomico) {
+
+        if (numeroRandomico == 1) {
+            numeroRandomico = numeroRandomico + 1;
+        }
+
+
+        if (numeroRandomico == 2) {
+            numeroRandomico = numeroRandomico + 1;
+        }
+
+
+        if (numeroRandomico == 3) {
+            numeroRandomico = numeroRandomico + 1;
+        }
+
+
+        if (numeroRandomico == 4) {
+            numeroRandomico = numeroRandomico - 1;
+        }
+    }
+
     arraySequencia.push(numeroRandomico);
-    sequenciaInicial = arraySequencia.sort(() => Math.random() - 0.5);
+
     numeroSequencia++;
     i = 0;
     cor = 1;
