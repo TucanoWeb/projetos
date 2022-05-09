@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <title>Jogo Memória - Estilo Genius</title>
+
+</head>
+
+<body>
+    <h1>Jogo da Memória - Estilo Genius</h1>
+    <div class="container" id="principal">
+        <div class="row">
+            <div class="quadrado1" id="quadro1" style="background-color: #527952; color: #527952;"></div>
+            <div class="quadrado2" id="quadro2" style="background-color: #b67676; color: #b67676;"></div>
+        </div>
+
+        <div class="row">
+            <div class="quadrado3" id="quadro3" style="background-color: #546eb4; color: #546eb4;"></div>
+            <div class="quadrado4" id="quadro4" style="background-color: #e0e0a2; color: #e0e0a2;"></div>
+        </div>
+
+    </div>
+
+    <h5 id="validar" class="alert alert-primary" role="alert">Aguarde a ordem das cores</h5>
+    <!-- <h5 id="sucesso" class="alert alert-sucess" role="alert">Sequência Correta</h3> -->
+
+
+    <div class="alert alert-success" role="alert" id="sequenciasCorretas" style="font-size: 20px;">
+        Número de sequências corretas: --
+    </div>
+
+
+
+
+    <button id="botaoIniciar" class="btn btn-info">
+        Iniciar o Desafio
+    </button>
+
+    <button id="botaoReiniciar" class="btn btn-danger">
+        Reiniciar o Desafio
+    </button>
+
+    <button id="continuarDesafio" class="btn btn-success">
+        Próximo Desafio
+    </button>
+
+
+
+</body>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</html>
