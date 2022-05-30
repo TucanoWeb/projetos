@@ -75,3 +75,7 @@ function createCactus() {
 createCactus();
 
 document.addEventListener('keyup', handleKeyUp);
+
+
+
+
