@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     background: url('../imgs/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
     height: 2rem;
     width: 250px;
     border: 2px black solid;
-    
+
 }
 
 .addTask {
@@ -65,7 +65,7 @@ body {
 
     background: rgb(170, 56, 56);
     color: white;
-    
+
 
 
 }
@@ -87,16 +87,13 @@ body {
 }
 
 label {
-    
+
     cursor: pointer;
     text-transform: capitalize;
 
 }
 
-.checkbox:checked+label{
+:checked+label {
     text-decoration: line-through;
     color: grey;
 }
-
-
-
