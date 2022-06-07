@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: grey;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.wallpapersafari.com/31/82/VgYiJ7.jpg");
+    background-position: center;
+}
+
+
+
+
+.wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+
+
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+.prompt {
+    font-size: 40px;
+    background-color: white;
+    border: 4px solid black;
+    text-align: right;
+    width: 350px;
+    height: 42px;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.wrapperButtons {
+    display: flex;
+    border: 1px solid black;
+    color: black;
+    width: 350px;
+    height: 246px;
+    font-size: 50px;
+    flex-direction: column;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+
+}
+
+
+.wrapper1a3 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-around;
+    border: 1px solid black;
+
+
+}
+
+.wrapper4a6 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-around;
+    border: 1px solid black;
+
+
+}
+
+.wrapper7a9 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-around;
+    border: 1px solid black;
+
+
+}
+
+.wrapper0 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-around;
+    border: 1px solid black;
+
+
+}
+
+.wrapperOperators {
+
+    display: block;
+
+    width: 98px;
+    right: 41%;
+    border: 1px solid black;
+    text-align: center;
+    height: 246px;
+
+
+
+}
+
+
+.buttonNumbers1:hover {
+
+    background: rgb(150, 221, 150);
+    color: white;
+
+}
+
+.buttonNumbers1:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+
+.buttonNumbers2:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers2:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers3:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers3:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers4:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers4:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers5:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers5:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers6:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers6:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers7:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers7:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers8:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers8:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.buttonNumbers9:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers9:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+.buttonNumbers0:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbers0:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+.buttonNumbersc:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbersc:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+.buttonNumbersSame:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.buttonNumbersSame:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+.soma:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.soma:active {
+    background: rgb(207, 197, 99);
+
+}
+
+
+.less:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.less:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.multiplique:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.multiplique:active {
+    background: rgb(207, 197, 99);
+
+}
+
+.division:hover {
+    background: rgb(150, 221, 150);
+    color: white;
+}
+
+.division:active {
+    background: rgb(207, 197, 99);
+    
+}

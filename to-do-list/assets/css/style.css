@@ -36,8 +36,14 @@ body {
     height: 2rem;
     width: 250px;
     border: 2px black solid;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 10px;
 
 }
+
+
 
 .addTask {
 
