@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald:wght@200;400&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Amatic SC', sans-serif;
+    background-image: url('../imgs/backgroundBody1.jpg');
+    background-size: cover;
+}
+
+
+.wrapper {
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: flex;
+}
+
+.gamePartWrapper {
+    width: 80%;
+    margin: 0;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+}
+
+
+.wrapperLines {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+
+.firstLine {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondLine {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdLine {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.fourthLine {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cards {
+    border: 1px solid black;
+    background: green;
+    background-image: url('../imgs/cardDefault2.jpg');
+    background-position: center;
+    background-size: contain;
+    color: white;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    transition: .8s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards:active {
+    transform: scale(0.8);
+}
+
+#checkbox1:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card1-2.jpg');
+
+}
+
+#checkbox2:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card1-2.jpg');
+
+}
+
+#checkbox3:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card3-4.jpg');
+
+}
+
+#checkbox4:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card3-4.jpg');
+
+}
+
+#checkbox5:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card5-6.jpg');
+
+}
+
+#checkbox6:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card5-6.jpg');
+
+}
+
+#checkbox7:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card7-8.jpg');
+
+}
+
+#checkbox8:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card7-8.jpg');
+
+}
+
+#checkbox9:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card9-10.jpg');
+
+}
+
+#checkbox10:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card9-10.jpg');
+
+}
+
+#checkbox11:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card11-12.jpg');
+
+}
+
+#checkbox12:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card11-12.jpg');
+
+}
+
+#checkbox13:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card13-14.jpg');
+
+}
+
+#checkbox14:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card13-14.jpg');
+
+}
+
+#checkbox15:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card15-16.jpg');
+
+}
+
+#checkbox16:checked+.cards {
+
+    transform: rotateY(180deg);
+    background-image: url('../imgs/card15-16.jpg');
+
+}
+
+
+
+
+
+.boardPartWrapper {
+
+    margin: 0px;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.startGame {
+    width: 250px;
+    margin-top: 50px;
+    border: 1px solid white;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(30, 128, 38);
+    opacity: 0.8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+
+}
+
+.startGame:hover {
+    border: 1px solid black;
+    color: black;
+    background: white;
+    font-weight: 700;
+}
+
+.timer {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    opacity: 0.5;
+    width: 40%;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.timer:hover {
+    color: black;
+    opacity: 1;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.painelGameBoard {
+    background-color: white;
+    opacity: 0.7;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px;
+    width: 35%;
+    margin-top: 25px;
+    color: black;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+}
+
+.painelGameBoard:hover {
+    opacity: 0.9;
+}
+
+.restartGame {
+    width: 250px;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(204, 102, 102);
+    opacity: 0.9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+
+}
+
+.restartGame:hover {
+    border: 1px solid black;
+    background: rgb(221, 6, 6);
+    opacity: 0.7;
+
+}

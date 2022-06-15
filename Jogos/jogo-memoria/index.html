@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+
+    <main class="wrapper">
+
+
+
+        <div class="gamePartWrapper" id="gamePartWrapper">
+            <div class="wrapperLines">
+                <div class="firstLine" id="firstLine"></div>
+                <div class="secondLine" id="secondLine"></div>
+                <div class="thirdLine" id="thirdLine"></div>
+                <div class="fourthLine" id="fourthLine"></div>
+
+            </div>
+        </div>
+        <div class="boardPartWrapper">
+
+            <h1>jogo da Memória</h1>
+
+            <button class="startGame" id="startGame">INICIAR JOGO</button>
+            <button class="restartGame" id="restartGame" style="display: none;">PARABÉNS! JOGAR NOVAMENTE?</button>
+
+            <p class="timer" id="timer" style="display: none;">Tempo: 0</p>
+
+
+
+            <div class="painelGameBoard">
+                <h2>Painel de Jogo</h2>
+                <p class="cronometro" id="cronometro">Tempo: </p>
+                <p class="error" id="error">Erros: </p>
+                <p class="points" id="points">Pontuação: </p>
+            </div>
+
+
+        </div>
+
+    </main>
+
+</body>
+
+<script src="assets/js/script.js"></script>
+
+</html>
