@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*conta o tamanho do box com a borda*/
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(45, 185, 185);
+}
+
+.memory-game {
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* Quando os elementos não couberem mais na linha, cairem para a próxima linha*/
+    perspective: 1000px; /*Efeito 3d sendo no eixo Z*/
+}
+
+.card {
+    height: calc(33.333% - 10px);
+    width: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(1, 1, 1, .3);
+    cursor: pointer;
+    transform: scale(1);
+    transform-style: preserve-3d; /*Não deixa o elemento achatado no plano*/
+    transition: transform .9s;
+}
+
+.card:active {
+    transform: scale(0.97);
+    transition: transform .3s;
+    /* Coloca a transition apenas no atributo transform, declarado mais acima */
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: white;
+    backface-visibility: hidden; /*Toda imagem no css tem o atributo backface, que por padrão considera a imagem rotacionada como ela mesmo ao contrário. Ao inserir o backface-visibility como hidden, declaramos que quando a carta virar, ou seja, rotacionar, ela ficará invisível*/
+}
+
+
+/*Flip Card animation*/
+.card-front {
+    transform: rotateY(180deg);
+}
+/*Pelas imagens estarem em absolute, é clicado primeiro no elemento da frente. Com isso, o card-front recebe o backface hidden e o classe pai card recebe a classe flip, fazendo com que a imagem que está atrás também gire, mas sem receber o backface. Ou seja, é uma ação em cascata.*/
+
+.card.flip {
+    transform: rotateY(180deg);
+}
