@@ -20,10 +20,10 @@
 
   --------------------------------------------------------------------------
 
-  ![](D:\BootCamp\Git Projetos\Repositórios\projetos\utilidade-publica\src\assets\imgs\banks1.png)
+  <img src='/src/assets/imgs/banks1.png'>
 
 
 
 ------------
 
-![](D:\BootCamp\Git Projetos\Repositórios\projetos\utilidade-publica\src\assets\imgs\ddd.png)
+<img src='/src/assets/imgs/ddd.png'>
