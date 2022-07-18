@@ -1,0 +1,49 @@
+.wrapperMenu {
+
+border: 1px solid black;
+padding: 15px;
+border-radius: 15px;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+
+}
+
+
+.buttonBanks {
+
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    background: rgb(214, 119, 84);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.buttonBanks:hover {
+    background: rgb(167, 69, 34);
+    
+}
+
+.buttonDDD {
+
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    background: rgb(46, 97, 69);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.buttonDDD:hover {
+    background: rgb(11, 49, 28);
+    
+}
