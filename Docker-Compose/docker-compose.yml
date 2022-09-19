@@ -1,0 +1,58 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: wordpress1
+      MYSQL_USER: wordpressuser1
+      MYSQL_PASSWORD: senha123
+      MYSQL_ROOT_PASSWORD: senha123
+    volumes:
+      - data_base:/var/lib/mysql
+    ports:
+      - 3306:3306
+    networks:
+      - db_mysql_1
+      - wordpress1
+
+
+  wordpress1:
+    image: wordpress:6.0.2-apache
+    restart: always
+    ports:
+      - 80:80
+    environment:
+     # Mesmo nome do db_host que o serviço mysql criado mais acima
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpressuser1
+      WORDPRESS_DB_PASSWORD: senha123
+      WORDPRESS_DB_NAME: wordpress1
+    volumes:
+      - wordpress:/var/www/html
+    networks:
+      - wordpress1
+      
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      MYSQL_ROOT_PASSWORD: senha123
+    ports:
+      - 8080:80
+    volumes:
+      - /data/php/admin/uploads.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+
+    networks:
+      - wordpress1
+
+    
+
+volumes:
+  data_base:
+  wordpress:
+
+networks:
+  db_mysql_1:
+  wordpress1:
