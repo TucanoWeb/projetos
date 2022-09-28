@@ -1,0 +1,69 @@
+.wrapperCalc {
+    width: 500px;
+}
+
+.wrapperCalc input {
+    width: 500px;
+    height: 35px;
+    font-size: 35px;
+    text-align: right;
+}
+
+.wrapperPanelNumbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.panelNumbers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelOperators {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.buttonNumber {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 20px;
+    transition: .3s ease-in-out;
+}
+
+.buttonNumber:hover {
+    
+    background: white;
+    color: black;
+
+}
+
+.buttonOp {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 20px;
+    transition: .3s ease-in-out;
+}
+
+.buttonOp:hover {
+    background: rgb(10, 10, 10);
+    color: rgb(221, 212, 212);
+}
