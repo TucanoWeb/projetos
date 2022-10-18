@@ -1,0 +1,10 @@
+.headerWrapper {
+    font-size: 24px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #2D333B;    
+}

@@ -1,0 +1,50 @@
+.inputWrapper {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.inputSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.inputWrapper input{
+    width: 60%;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #e5e5e5;
+    background: #24292F;
+}
+
+.inputWrapper button{
+    margin-left: 25px;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #e5e5e5;
+    background: #24292F;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+
+.GetUsersWrapper {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+

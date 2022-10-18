@@ -1,0 +1,50 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 50px;
+    color: #e5e5e5;
+}
+
+.photoProfile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.photoProfile img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.infoProfileWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+.nameProfile {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.tagProfile {
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.descriptionProfile {
+    font-size: 15px;
+}

@@ -1,0 +1,47 @@
+.repos {
+    width: 80%;
+    margin: 50px;
+    color: #e5e5e5;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+hr {
+    width: 90%;
+    margin: 10px 0px 10px 1px;
+    border: 1px solid #5e5e5e;
+}
+
+.titleRepo {
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.reposTitle a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0969DC;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.reposDescription {
+    font-size: 15px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.repoStyle {
+    display: flex;
+    flex-direction: column;
+}
