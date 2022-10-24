@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "TucanoWeb",
+            "email": "suporte@tucanoweb.com.br",
+            "senha": "123456"
+        },
+        {
+            "id": 2,
+            "name": "Financeiro",
+            "email": "financeiro@tucanoweb.com.br",
+            "senha": "123456"
+        }
+    ]
+}
