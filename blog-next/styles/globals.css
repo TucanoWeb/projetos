@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: url('/images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.sub-content {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+
+.cardsWrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardsWrapper a{
+  text-decoration: none;
+}
+
+
+.cardLeftBox {
+
+  box-sizing: border-box;
+  border: 1px solid #e5e7eb;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 500px;
+  border-radius: 8px 0 0 8px;
+  padding: 40px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  text-align: right;
+}
+
+.cardLeftBox:hover {
+  background-color: rgba(0, 0, 0, 0.400);
+}
+
+.cardRightBox {
+
+  box-sizing: border-box;
+  border: 1px solid #e5e7eb;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 500px;
+  padding: 40px;
+  border-radius: 0 8px 8px 0;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  text-align: left;
+}
+
+.cardRightBox:hover {
+  background-color: rgba(0, 0, 0, 0.400);
+}
+
+.header {
+  color: #9D9EA1;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titleCard {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  height: 50%;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.arrowIconCard {
+
+  color: #541C22;
+  font-size: 30px;
+  margin-top: 15px;
+  bottom: 0px;
+}
