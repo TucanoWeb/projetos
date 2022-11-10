@@ -16,7 +16,7 @@
 ```
 npm i styled-components
 npm i react-icons
-npm i babel-styled-component
+npm i babel-plugin-styled-components
 npm i axios
 
 ```
