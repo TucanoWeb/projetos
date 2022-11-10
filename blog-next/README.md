@@ -15,6 +15,7 @@
 
 ```
 npm i styled-components
+npm i @types/styled-components
 npm i react-icons
 npm i babel-plugin-styled-components
 npm i axios
