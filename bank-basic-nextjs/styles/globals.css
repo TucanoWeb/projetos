@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+html,
+body {
+  
+  width: 100%;
+  height: 100vh;
+  background-image: url('/assets/imgs/back.png');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+
+  
+  padding: 0;
+  margin: 0;
+  
+ 
+}
