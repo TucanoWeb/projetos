@@ -114,31 +114,31 @@ const RegisteredUser = () => {
 
                 <InputGroup>
                     <LeftAddon>
-                    <InputLeftAddon>+55</InputLeftAddon>
+                        <InputLeftAddon>+55</InputLeftAddon>
                     </LeftAddon>
                     <Input type='tel' placeholder="Telefone" {...register("telephone")} />
                 </InputGroup>
                 <Alerts>{errors.telephone?.message}</Alerts>
-                
+
                 {sendData ? (
                     <ButtonWrapper>
-                    <Stack direction='row' spacing={4}>
-                    <Button
-                      isLoading
-                      loadingText='Registrando...'
-                      colorScheme='teal'
-                      variant='outline'
-                    >
-                      Submit
-                    </Button>
-                  </Stack>
+                        <Stack direction='row' spacing={4}>
+                            <Button
+                                isLoading
+                                loadingText='Registrando...'
+                                colorScheme='teal'
+                                variant='outline'
+                            >
+                                Submit
+                            </Button>
+                        </Stack>
                     </ButtonWrapper>
-                ): (
-                <ButtonWrapper>
-                    <Button colorScheme='teal' size='md' type="submit">
-                        Salvar Alterações
-                    </Button>
-                </ButtonWrapper>
+                ) : (
+                    <ButtonWrapper>
+                        <Button colorScheme='teal' size='md' type="submit">
+                            Salvar Alterações
+                        </Button>
+                    </ButtonWrapper>
                 )}
             </form>
         </>
