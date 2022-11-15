@@ -80,7 +80,7 @@ const RegisteredUser = () => {
             }
             <Flex>
                 <HeaderForm>
-                    <Avatar size='2xl' src={image} />
+                    <Avatar size='2xl' src={image as string | null} />
                     <Box ml='3'>
                         <Badge ml='5' colorScheme='green'>
                             Cadastrado
