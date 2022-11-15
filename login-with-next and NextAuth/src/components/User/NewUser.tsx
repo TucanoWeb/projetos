@@ -43,7 +43,7 @@ const NewUser = () => {
 
     const fullName = session?.user?.name
     const splitName: any = fullName?.split(' ')
-    const image: any = session?.user?.image
+    const image: string | null | undefined = session?.user?.image
 
     const [sendData, setSendData] = useState(false as object | boolean)
 
