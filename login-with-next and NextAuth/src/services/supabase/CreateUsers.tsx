@@ -34,7 +34,7 @@ const CreateUsers = ({ values }: any) => {
             controller++
         }
 
-    }, [])
+    })
 
 
 

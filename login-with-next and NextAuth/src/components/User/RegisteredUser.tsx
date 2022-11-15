@@ -114,7 +114,7 @@ const RegisteredUser = () => {
 
                 <InputGroup>
                     <LeftAddon>
-                        <InputLeftAddon children='+55' />
+                    <InputLeftAddon>+55</InputLeftAddon>
                     </LeftAddon>
                     <Input type='tel' placeholder="Telefone" {...register("telephone")} />
                 </InputGroup>

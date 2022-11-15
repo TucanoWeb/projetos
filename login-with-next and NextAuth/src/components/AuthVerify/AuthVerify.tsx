@@ -1,5 +1,4 @@
 import { useSession } from 'next-auth/react';
-import { Container } from '../../pages/styleIndex';
 import Login from '../Login/Login';
 
 
@@ -13,9 +12,9 @@ const AuthVerify = ({ children }: { children: JSX.Element }) => {
             {session ? (
                 { ...children }
             ) : (
-                <Container>
+                <div className='containerIndex'>
                     <Login />
-                </Container>
+                </div>
             )
             }
         </>

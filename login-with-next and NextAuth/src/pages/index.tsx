@@ -1,5 +1,4 @@
 import { useContext } from "react"
-import { Container } from "./styleIndex"
 import GetUsers from '../services/supabase/GetUsers';
 import { ContextProps, ContextGetUser } from '../Context/context';
 import { User } from "../components";
@@ -16,9 +15,9 @@ export default function Home() {
       {getUserRequisition.requisition === false &&
         <GetUsers />
       }
-      <Container>
-          <User />
-      </Container>
+      <div className="containerIndex">
+        <User />
+      </div>
     </>
   )
 }
