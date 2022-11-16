@@ -110,7 +110,7 @@ const RegisteredUser = () => {
                 <Input placeholder="Profissão" {...register("profissao")} />
                 <Alerts>{errors.profissao?.message}</Alerts>
 
-                <Input placeholder="Email" disabled={true} defaultValue={session?.user?.email as string | number | readonly string[] | null | undefined} {...register("email")} />
+                <Input placeholder="Email" disabled={true} defaultValue={session?.user?.email as any} {...register("email")} />
 
                 <InputGroup>
                     <LeftAddon>
