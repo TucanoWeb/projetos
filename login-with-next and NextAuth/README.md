@@ -63,9 +63,44 @@ Arquivo personalizado do **.Babelrc**
 
 
 
+Para que a autenticação funcione em modo de produção, é necessário que crie uma variável de ambiente com o nome de NEXTAUTH_SECRET e a inclua no seu arquivo [...nextauth].js
+
+
+
+```bash
+import NextAuth from "next-auth"
+import GithubProvider from "next-auth/providers/google"
+export const authOptions = {
+  providers: [
+    GithubProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
+  ],
+  secret: process.env.NEXTAUTH_SECRET,
+  debug: true
+}
+export default NextAuth(authOptions)
+
+openssl rand -base64 32
+```
+
+
+
+Gere um token através do comando abaixo e o atribua à variável criada (NEXTAUTH_SECRET). Esse comando pode ser executado em um terminal linux:
+
+```bash
+openssl rand -base64 32
+```
+
+
+
+
+
 **Precisa de ajuda? Me chame:**
 
 **Discord:** kuat#4229
+
 Linkedin: https://www.linkedin.com/in/eric-ricielle-2aa1ba237/
 
 
