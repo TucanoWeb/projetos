@@ -6,6 +6,8 @@ Toda a aplicação está envolta pela autenticação, sem a necessidade de valid
 
 
 
+**Demonstração:** https://nextauth2.vercel.app/
+
 
 
 - Aplicação em NextJS e TypeScript;
