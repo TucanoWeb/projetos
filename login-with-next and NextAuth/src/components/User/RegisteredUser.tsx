@@ -43,7 +43,7 @@ const RegisteredUser = () => {
 
     const fullName = session?.user?.name
     const splitName: any = fullName?.split(' ')
-    const image: string | null = session?.user?.image
+    const image = session?.user?.image
 
     const [sendData, setSendData] = useState(false as any)
     const [user, setUser] = useContext(ContextProps)
@@ -80,7 +80,7 @@ const RegisteredUser = () => {
             }
             <Flex>
                 <HeaderForm>
-                    <Avatar size='2xl' src={image} />
+                    <Avatar size='2xl' src={image as string | undefined} />
                     <Box ml='3'>
                         <Badge ml='5' colorScheme='green'>
                             Cadastrado
