@@ -43,7 +43,7 @@ const NewUser = () => {
 
     const fullName = session?.user?.name
     const splitName: any = fullName?.split(' ')
-    const image = session?.user?.image
+    const image: string | null = session?.user?.image
 
     const [sendData, setSendData] = useState(false as object | boolean)
 
@@ -81,7 +81,7 @@ const NewUser = () => {
             }
             <Flex>
                 <HeaderForm>
-                    <Avatar size='2xl' src={image as any} />
+                    <Avatar size='2xl' src={image} />
                     <Box ml='3'>
                         <Badge ml='5' colorScheme='red'>
                             Sem cadastro
