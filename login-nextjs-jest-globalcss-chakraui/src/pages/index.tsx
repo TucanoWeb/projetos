@@ -14,7 +14,7 @@ export default function Home() {
         textAlign='center'
         >
           <AlertIcon />
-          Clique em "Minha Conta" para simular o login ou acessar sua conta, caso já o tenha feito
+          Clique em Minha Conta para simular o login ou acessar sua conta, caso já o tenha feito
         </Alert>
         </ContainerWarning>
       </ContainerBody>
