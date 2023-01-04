@@ -1,8 +1,4 @@
-import { dataUsertest } from "./api/verityUser";
-import "@testing-library/jest-dom";
-import { getAllLocalStorage } from "../../services/storage";
-
-
+import { dataUsertest } from "./src/pages/api/verityUser";
 
 
 

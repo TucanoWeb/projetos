@@ -9,5 +9,6 @@
                 "ssr": true
             }
         ]
-    ]
+    ],
+    "pageExtensions": ["tsx"]
 }

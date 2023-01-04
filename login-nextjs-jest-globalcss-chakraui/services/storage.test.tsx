@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom";
 import { getAllLocalStorage, setItem, changeItem, testSetItem } from './storage';
 
 describe('Verificar Armazenamento Local', () => {
