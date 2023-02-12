@@ -1,5 +1,3 @@
-from globals import values
-
 welcome: str = """
     Bem vindo(a). Por favor, selecione uma opção abaixo:
     
