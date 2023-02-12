@@ -13,6 +13,8 @@ def sacar(value: float, balance: float, quantity_saque: int) -> str:
         return print('Saldo insuficiente.')
     elif(quantity_saque <= 0):
         return print('Quantidade de saques excedida')
+    elif(value > 500):
+        return print('Não é permitido saques maiores que R$500')
     else:
         return print(f"""
                      Saque realizado com sucesso.
