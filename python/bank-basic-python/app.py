@@ -1,4 +1,4 @@
-from functions import controller, repository
+from functions import controller
 from models import msgs
 from globals import values
 
@@ -16,7 +16,7 @@ while(option != 0):
         value_withdraw: float = float(input('Digite o valor para saque: '))
         print(controller.sacar(value_withdraw, values.balance, values.quantity_withdraw))
     elif(option == 3):
-        print(f'Extrato: {values.extract}')
+        print(f'Ainda não houveram movimentaçãoes' if len(values.extract) == 0 else values.extract)
     elif(option == 4):
         print(f'Seu saldo atualmente é de: R$ {values.balance}')
                 
