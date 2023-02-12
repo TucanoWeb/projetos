@@ -1,0 +1,40 @@
+from functions import controller, repository
+from models import msgs
+from globals import values
+
+print(msgs.welcome)
+
+option: int = int(input('Digite a opção desejada: '))
+
+while(option != 0):
+    if(option > 4):
+        print(msgs.option_error)
+    elif(option == 1):
+        valor_deposito: float = float(input('Digite o valor para depósito: '))
+        print(controller.depositar(valor_deposito, values.balance))
+    elif(option == 2):
+        value_withdraw: float = float(input('Digite o valor para saque: '))
+        print(controller.sacar(value_withdraw, values.balance, values.quantity_withdraw))
+    elif(option == 3):
+        print(f'Extrato: {values.extract}')
+    elif(option == 4):
+        print(f'Seu saldo atualmente é de: R$ {values.balance}')
+                
+    print(msgs.welcome)
+    option = int(input('Digite a opção desejada: '))
+        
+        
+print(msgs.good_bye)
+
+
+
+
+
+
+
+
+
+
+
+
+
