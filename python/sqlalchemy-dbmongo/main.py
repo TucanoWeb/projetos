@@ -15,7 +15,7 @@ from services.api.Auth import dbMongoKey
 conn: Engine = Engine.connection()
 
 
-if dbMongoKey.KEY == '0':
+if dbMongoKey.KEY == '0' or dbMongoKey.DBNAME == '0':
     print(msg.change_key_dbmongo)
 else:
     print(msg.initial)

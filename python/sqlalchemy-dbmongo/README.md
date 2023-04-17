@@ -16,3 +16,20 @@
 1 - Gere sua chave em MongoAtlas através do link https://cloud.mongodb.com/
 
 2 - Insira o valor da sua chave em Services > Api > Auth > dbMongoKey, na constante KEY
+
+3 - Inseria o nome da Tabela na constante DBNAME, no mesmo arquivo.
+
+4 - Execute os passos abaixo para ativar o ambiente virtual para rodar a aplicação (venv):
+
+` cd .\project1\Scripts\`
+
+`  .\active\`
+
+5 - Você verá o nome (project1) no início da linha de comando, mostrando que ativou o ambiente virtual com sucesso;
+
+6 - Agora, basta retornar a pasta  raiz para executar a aplicação
+
+` cd ..\..`
+
+`  python .\main.py`
+

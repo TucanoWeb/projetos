@@ -13,10 +13,13 @@ class NoSQL():
     @classmethod
     def connect(self) -> object:
 
-        # Insira sua chave abaixo
+        # Recebe o valor de KEY
         client = pymongo.MongoClient(dbMongoKey.KEY)
 
-        db = client.test
+        # Recebe o valor de DBNAME
+        tabela: str = dbMongoKey.DBNAME
+
+        db = client.tabela
 
         # Para testar a conexão
         # collection = db.test_collection
