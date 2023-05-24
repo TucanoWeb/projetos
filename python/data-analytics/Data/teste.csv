@@ -1,0 +1,194 @@
+﻿country,region,income,income_level,life_exp,co2,co2_change,population
+Afghanistan,Asia,2.03,Level 1,62.7,0.254,increase,37.2
+Albania,Europe,13.3,Level 3,78.4,1.59,increase,2.88
+Algeria,Africa,11.6,Level 3,76,3.69,increase,42.2
+Andorra,Europe,58.3,Level 4,82.1,6.12,decrease,0.077
+Angola,Africa,6.93,Level 2,64.6,1.12,decrease,30.8
+Antigua and Barbuda,Americas,21,Level 3,76.2,5.88,increase,0.0963
+Argentina,Americas,22.7,Level 3,76.5,4.41,decrease,44.4
+Armenia,Europe,12.7,Level 3,75.6,1.89,decrease,2.95
+Australia,Asia,49,Level 4,82.9,16.9,decrease,24.9
+Austria,Europe,55.3,Level 4,82.1,7.75,decrease,8.89
+Azerbaijan,Europe,14.2,Level 3,70.8,3.7,decrease,9.95
+Bahamas,Americas,36.5,Level 4,73.8,4.7,decrease,0.386
+Bahrain,Asia,46.4,Level 4,77,19.8,decrease,1.57
+Bangladesh,Asia,4.44,Level 2,74.2,0.531,increase,161
+Barbados,Americas,15.7,Level 3,76.5,4.48,decrease,0.287
+Belarus,Europe,19,Level 3,74,6.93,decrease,9.45
+Belgium,Europe,51.1,Level 4,81.4,8.69,decrease,11.5
+Belize,Americas,7.26,Level 2,74.4,1.5,increase,0.383
+Benin,Africa,3.16,Level 2,64,0.623,increase,11.5
+Bhutan,Asia,11.3,Level 3,73,1.61,increase,0.754
+Bolivia,Americas,8.66,Level 3,71.8,1.96,increase,11.4
+Bosnia and Herzegovina,Europe,14.4,Level 3,76.9,6.53,increase,3.32
+Botswana,Africa,16.2,Level 3,61.8,2.96,increase,2.25
+Brazil,Americas,14.7,Level 3,75.7,2.18,increase,209
+Brunei,Asia,60.4,Level 4,74.2,18.5,decrease,0.429
+Bulgaria,Europe,22.2,Level 3,73.3,6.32,decrease,7.05
+Burkina Faso,Africa,2.12,Level 1,61.3,0.198,increase,19.8
+Burundi,Africa,0.762,Level 1,63.4,0.0467,increase,11.2
+Cambodia,Asia,4.16,Level 2,69.7,0.64,increase,16.2
+Cameroon,Africa,3.71,Level 2,62.6,0.323,increase,25.2
+Canada,Americas,49,Level 4,82.2,15.3,decrease,37.1
+Cape Verde,Africa,6.86,Level 2,73.5,1.16,increase,0.544
+Central African Republic,Africa,0.933,Level 1,51.5,0.0651,increase,4.67
+Chad,Africa,1.58,Level 1,59.9,0.0656,decrease,15.5
+Chile,Americas,25,Level 4,80.1,4.59,increase,18.7
+China,Asia,15.1,Level 3,77.4,7.06,increase,1430
+Colombia,Americas,14.3,Level 3,80.1,1.96,increase,49.7
+Comoros,Africa,3.07,Level 2,68.5,0.263,increase,0.832
+"Congo, Dem. Rep.",Africa,1.09,Level 1,64.7,0.0243,decrease,84.1
+"Congo, Rep.",Africa,3.93,Level 2,65,0.617,increase,5.24
+Costa Rica,Americas,20.7,Level 3,80,1.61,decrease,5
+Cote d'Ivoire,Africa,4.85,Level 2,63.6,0.335,decrease,25.1
+Croatia,Europe,28.2,Level 4,78.6,4.48,decrease,4.16
+Cuba,Americas,9.68,Level 3,78.3,2.53,increase,11.3
+Cyprus,Europe,40,Level 4,80.8,6.3,decrease,1.19
+Czech Republic,Europe,39.9,Level 4,79.3,9.94,decrease,10.7
+Denmark,Europe,56.2,Level 4,81.1,6.06,decrease,5.75
+Djibouti,Africa,5.21,Level 2,66.7,0.672,increase,0.959
+Dominica,Americas,11.5,Level 3,72.3,2.55,increase,0.0716
+Dominican Republic,Americas,17.7,Level 3,72.9,2.34,increase,10.6
+Ecuador,Americas,11.6,Level 3,76.2,2.46,increase,17.1
+Egypt,Africa,11.4,Level 3,70.7,2.43,decrease,98.4
+El Salvador,Americas,8.62,Level 3,75.6,1.11,increase,6.42
+Equatorial Guinea,Africa,20.4,Level 3,65.8,4.35,decrease,1.31
+Eritrea,Africa,1.56,Level 1,63.4,0.215,increase,3.45
+Estonia,Europe,35.1,Level 4,77.9,14.8,increase,1.32
+Eswatini,Africa,8.52,Level 3,57.8,1.06,decrease,1.14
+Ethiopia,Africa,2.1,Level 1,68.4,0.137,increase,109
+Fiji,Asia,13.8,Level 3,68.3,2.41,increase,0.883
+Finland,Europe,48,Level 4,81.8,8.52,decrease,5.52
+France,Europe,45.3,Level 4,82.9,5.2,decrease,65
+Gabon,Africa,14.7,Level 3,67.5,2.53,decrease,2.12
+Gambia,Africa,2.16,Level 1,66.4,0.268,increase,2.28
+Georgia,Europe,14.3,Level 3,73.3,2.64,increase,4
+Germany,Europe,53.5,Level 4,81.2,9.14,decrease,83.1
+Ghana,Africa,5.32,Level 2,65.8,0.615,increase,29.8
+Greece,Europe,29.1,Level 4,81,7.03,decrease,10.5
+Grenada,Americas,16.8,Level 3,73.2,2.43,increase,0.111
+Guatemala,Americas,8.46,Level 3,72.4,1.07,increase,17.2
+Guinea,Africa,2.5,Level 1,60.6,0.256,increase,12.4
+Guinea-Bissau,Africa,1.9,Level 1,60.3,0.181,increase,1.87
+Guyana,Americas,12.5,Level 3,67.1,3.12,increase,0.779
+Haiti,Americas,3.17,Level 2,63.5,0.27,increase,11.1
+Honduras,Americas,5.68,Level 2,71.9,1.04,decrease,9.59
+"Hong Kong, China",Asia,61.1,Level 4,84.3,5.86,decrease,7.37
+Hungary,Europe,31.1,Level 4,76.3,5.14,decrease,9.71
+Iceland,Europe,56.8,Level 4,84,10.8,decrease,0.337
+India,Asia,6.52,Level 2,70.5,1.96,increase,1350
+Indonesia,Asia,11.4,Level 3,71.1,2.3,increase,268
+Iran,Asia,13.5,Level 3,77.6,8.81,increase,81.8
+Iraq,Asia,10.6,Level 3,73.3,5.32,increase,38.4
+Ireland,Europe,83.7,Level 4,82,8.09,decrease,4.82
+Israel,Asia,39.9,Level 4,83,7.67,decrease,8.38
+Italy,Europe,42,Level 4,83.1,5.58,decrease,60.6
+Jamaica,Americas,9.74,Level 3,76.3,2.79,decrease,2.93
+Japan,Asia,41.8,Level 4,84.8,9.14,decrease,127
+Jordan,Asia,10,Level 3,77.9,2.42,decrease,9.97
+Kazakhstan,Asia,25.5,Level 4,71.7,17.6,increase,18.3
+Kenya,Africa,4.34,Level 2,66.1,0.36,increase,51.4
+Kiribati,Asia,2.29,Level 1,59.3,0.601,decrease,0.116
+Kuwait,Asia,50.5,Level 4,81.6,23.7,decrease,4.14
+Kyrgyz Republic,Asia,5.13,Level 2,73.3,1.6,increase,6.3
+Lao,Asia,7.59,Level 2,68.6,2.74,increase,7.06
+Latvia,Europe,30.1,Level 4,75.8,3.73,decrease,1.93
+Lebanon,Asia,15.7,Level 3,76.2,3.53,decrease,6.86
+Lesotho,Africa,2.62,Level 1,51.4,1.26,increase,2.11
+Liberia,Africa,1.54,Level 1,65.7,0.324,increase,4.82
+Libya,Africa,15,Level 3,75.7,8.09,decrease,6.68
+Lithuania,Europe,35.4,Level 4,76.1,4.84,increase,2.8
+Luxembourg,Europe,115,Level 4,82.9,15.9,decrease,0.604
+Madagascar,Africa,1.59,Level 1,65.1,0.163,increase,26.3
+Malawi,Africa,1.5,Level 1,64.1,0.0762,decrease,18.1
+Malaysia,Asia,27.6,Level 4,75.2,8.08,increase,31.5
+Maldives,Asia,18.8,Level 3,79,2.96,increase,0.516
+Mali,Africa,2.28,Level 1,61.2,0.187,increase,19.1
+Malta,Europe,43.3,Level 4,82.5,3.61,decrease,0.439
+Marshall Islands,Asia,3.82,Level 2,65.3,2.58,increase,0.0584
+Mauritania,Africa,5.19,Level 2,70.5,0.605,increase,4.4
+Mauritius,Africa,22.2,Level 3,75.3,3.83,increase,1.27
+Mexico,Americas,19.9,Level 3,75.5,3.79,decrease,126
+"Micronesia, Fed. Sts.",Asia,3.46,Level 2,64.1,1.34,increase,0.113
+Moldova,Europe,12.4,Level 3,74,1.27,increase,4.05
+Mongolia,Asia,12,Level 3,68,8.88,increase,3.17
+Montenegro,Europe,20.7,Level 3,75.6,3.2,decrease,0.628
+Morocco,Africa,7.45,Level 2,73.1,1.84,increase,36
+Mozambique,Africa,1.29,Level 1,57.9,0.281,increase,29.5
+Myanmar,Asia,4.47,Level 2,69.1,0.491,increase,53.7
+Namibia,Africa,10.1,Level 3,64.7,1.75,increase,2.45
+Nauru,Asia,13.6,Level 3,63.2,4.71,increase,0.0107
+Nepal,Asia,3.77,Level 2,70.8,0.337,increase,28.1
+Netherlands,Europe,56.1,Level 4,81.7,9.48,decrease,17.1
+New Zealand,Asia,42.9,Level 4,81.8,7.34,decrease,4.74
+Nicaragua,Americas,5.73,Level 2,75.2,0.862,increase,6.47
+Niger,Africa,1.2,Level 1,62,0.103,increase,22.4
+Nigeria,Africa,5.16,Level 2,63.8,0.65,increase,196
+North Korea,Asia,1.86,Level 1,72.9,1.18,decrease,25.5
+North Macedonia,Europe,16.1,Level 3,74.3,3.49,decrease,2.08
+Norway,Europe,64.3,Level 4,82.8,8.31,decrease,5.34
+Oman,Asia,32.6,Level 4,73.6,13.9,decrease,4.83
+Pakistan,Asia,4.74,Level 2,65.5,1.05,increase,212
+Palau,Asia,17.6,Level 3,67.4,13.2,increase,0.0179
+Palestine,Asia,6.32,Level 2,74.7,0.661,increase,4.86
+Panama,Americas,31,Level 4,79.9,2.62,increase,4.18
+Papua New Guinea,Asia,4.19,Level 2,64.4,0.911,increase,8.61
+Paraguay,Americas,12.8,Level 3,76.5,1.07,increase,6.96
+Peru,Americas,12.8,Level 3,80,1.74,increase,32
+Philippines,Asia,8.52,Level 3,71.6,1.27,increase,107
+Poland,Europe,31.7,Level 4,78,9.07,increase,37.9
+Portugal,Europe,34,Level 4,81.7,4.97,decrease,10.3
+Qatar,Asia,91,Level 4,76.1,38,decrease,2.78
+Romania,Europe,28.5,Level 4,75.5,3.8,decrease,19.5
+Russia,Europe,26.7,Level 4,73,11.7,increase,146
+Rwanda,Africa,2.09,Level 1,68.3,0.0913,increase,12.3
+Samoa,Asia,6.39,Level 2,70.4,1.32,increase,0.196
+Sao Tome and Principe,Africa,3.99,Level 2,70.7,0.587,increase,0.211
+Saudi Arabia,Asia,47.6,Level 4,74.3,18.4,increase,33.7
+Senegal,Africa,3.31,Level 2,68,0.739,increase,15.9
+Serbia,Europe,17.5,Level 3,75.6,5.17,decrease,8.8
+Seychelles,Africa,27.5,Level 4,73.5,6.75,decrease,0.0971
+Sierra Leone,Africa,1.66,Level 1,61.2,0.141,increase,7.65
+Singapore,Asia,98.2,Level 4,84.7,7.1,decrease,5.76
+Slovak Republic,Europe,31.2,Level 4,77.5,6.61,decrease,5.45
+Slovenia,Europe,38,Level 4,81.4,6.95,decrease,2.08
+Solomon Islands,Asia,2.7,Level 2,59,0.273,decrease,0.653
+Somalia,Africa,1.13,Level 1,57.9,0.0466,decrease,15
+South Africa,Africa,13.9,Level 3,64.4,8.1,decrease,57.8
+South Korea,Asia,42,Level 4,82.9,12.9,increase,51.2
+South Sudan,Africa,2.01,Level 1,63,0.171,increase,11
+Spain,Europe,40.3,Level 4,83.1,5.75,decrease,46.7
+Sri Lanka,Asia,12.9,Level 3,77.2,1.1,increase,21.2
+St. Kitts and Nevis,Americas,27.5,Level 4,72.1,4.62,increase,0.0524
+St. Lucia,Americas,15.3,Level 3,75.1,2.31,decrease,0.182
+St. Vincent and the Grenadines,Americas,12.5,Level 3,72.8,2.03,decrease,0.11
+Sudan,Africa,4.37,Level 2,70.1,0.504,increase,41.8
+Suriname,Americas,19,Level 3,72.6,3.1,decrease,0.576
+Sweden,Europe,52.3,Level 4,82.7,4.12,decrease,9.97
+Switzerland,Europe,70.6,Level 4,83.9,4.33,decrease,8.53
+Syria,Asia,3.89,Level 2,73.2,1.67,decrease,16.9
+Taiwan,Asia,51.9,Level 4,80.2,11.6,increase,23.7
+Tajikistan,Asia,3.42,Level 2,69.2,0.603,increase,9.1
+Tanzania,Africa,2.59,Level 1,66.7,0.222,increase,56.3
+Thailand,Asia,18.1,Level 3,78.3,4.15,increase,69.4
+Timor-Leste,Asia,3.09,Level 2,70.5,0.412,increase,1.27
+Togo,Africa,2.06,Level 1,64.5,0.434,increase,7.89
+Tonga,Asia,6.41,Level 2,72.9,1.31,increase,0.103
+Trinidad and Tobago,Americas,26.3,Level 4,74.8,31.3,decrease,1.39
+Tunisia,Africa,11.4,Level 3,77.5,2.73,increase,11.6
+Turkey,Europe,28.3,Level 4,78.1,5.2,increase,82.3
+Turkmenistan,Asia,14.8,Level 3,70.6,13.7,increase,5.85
+Tuvalu,Asia,3.95,Level 2,67.8,1.01,decrease,0.0115
+Uganda,Africa,2.13,Level 1,65.7,0.135,increase,42.7
+Ukraine,Europe,12.3,Level 3,73.9,5.09,decrease,44.2
+United Arab Emirates,Asia,67,Level 4,73.7,21.4,decrease,9.63
+United Kingdom,Europe,46.9,Level 4,81,5.65,decrease,67.1
+United States,Americas,61.6,Level 4,79,16.6,decrease,327
+Uruguay,Americas,23,Level 3,77.5,2.01,decrease,3.45
+Uzbekistan,Asia,7.08,Level 2,68.1,2.81,decrease,32.5
+Vanuatu,Asia,3.09,Level 2,65.3,0.529,increase,0.293
+Venezuela,Americas,12.4,Level 3,75.4,4.81,decrease,28.9
+Vietnam,Asia,7.59,Level 2,74.3,2.16,increase,95.5
+Yemen,Asia,2.66,Level 2,66.1,0.356,decrease,28.5
+Zambia,Africa,3.52,Level 2,62.5,0.302,increase,17.4
+Zimbabwe,Africa,3.92,Level 2,60.6,0.85,increase,14.4
