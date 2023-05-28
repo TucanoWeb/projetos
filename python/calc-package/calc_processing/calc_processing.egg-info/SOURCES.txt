@@ -1,0 +1,10 @@
+README.md
+setup.py
+arr_sum/__init__.py
+arr_sum/result.py
+calc_processing.egg-info/PKG-INFO
+calc_processing.egg-info/SOURCES.txt
+calc_processing.egg-info/dependency_links.txt
+calc_processing.egg-info/top_level.txt
+mult_table/__init__.py
+mult_table/table.py

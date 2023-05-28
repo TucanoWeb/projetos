@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: calc-processing
+Version: 0.0.2
+Summary: Mult Table and array sum
+Home-page: https://github.com/TucanoWeb/projetos/tree/master/python/calc-package
+Author: TucanoWeb
+Author-email: suporte@tucanoweb.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # Calc_processing
 
 This package is used to print mult table and sum all elements in array.
@@ -22,4 +34,6 @@ from mult_table.table import mult_10
 ```python
 from arr_sum.result import sum_all
 ```
+
+
 
