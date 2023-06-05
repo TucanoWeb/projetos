@@ -1,4 +1,4 @@
-### Utilização de SQLAlchemy e PyMongo para persistência de dados
+### Utilização de Flask_Restfull para criação de API
 
 - Modularização de funções com baixo acoplamento e alta coesão.
 
