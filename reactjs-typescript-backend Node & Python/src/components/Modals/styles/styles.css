@@ -1,0 +1,19 @@
+.bodyForm {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+}
+
+.bodyForm input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+}
+
+.inputsForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

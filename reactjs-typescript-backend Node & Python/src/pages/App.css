@@ -1,0 +1,77 @@
+.wrapperBody {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.header {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 225, 225);
+  height: 80px;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  padding-top: 55px;
+  background-color: rgb(233, 225, 225);
+  height: 85vh;
+  border-right: 1px solid black;
+
+}
+
+/* Menu Typografia  - classe do material ui relacionado a lista */
+.css-10hburv-MuiTypography-root {
+  font-size: 1.3rem !important;
+
+}
+
+/* Label tabela celula cabeçalho*/
+.css-1ygcj2i-MuiTableCell-root {
+  font-size: 25px !important;
+}
+
+/* Label tabela celula content*/
+.css-1ex1afd-MuiTableCell-root {
+  font-size: 20px !important;
+
+}
+
+.appBody {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 20px;
+}
+
+.version {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.wrapperButton {
+  margin-bottom: 20px;
+}
+
+.wrapperButton button {
+  font-size: 20px;
+
+}
