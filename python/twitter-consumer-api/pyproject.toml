@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "twitter-consumer-api"
+version = "1.0.0"
+description = "teste"
+authors = ["TucanoWeb <suporte@tucanoweb.com.br>"]
+readme = "README.md"
+packages = [{include = "twitter_consumer_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tweepy = "^4.14.0"
+pymongo = "^4.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
