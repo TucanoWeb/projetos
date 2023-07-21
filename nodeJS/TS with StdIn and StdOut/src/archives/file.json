@@ -1,0 +1,36 @@
+[
+    { "action": "CREATE_ORDER", "order_id": 1 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 1, "product_id": 1 },
+    
+    { "action": "CREATE_ORDER", "order_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    
+    { "action": "ADD_ORDER_ITEM", "order_id": 1, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 1, "product_id": 2 },
+
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 3 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 3 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 3 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 3 },
+    
+    { "action": "REMOVE_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+
+    { "action": "CHECKOUT_ORDER", "order_id": 2 },
+    { "action": "ADD_ORDER_ITEM", "order_id": 2, "product_id": 2 },
+
+    { "action": "CHECKOUT_ORDER", "order_id": 2 },
+
+    { "action": "REMOVE_ORDER_ITEM", "order_id": 1, "product_id": 1 },
+    { "action": "REMOVE_ORDER_ITEM", "order_id": 1, "product_id": 2 },
+    { "action": "CHECKOUT_ORDER", "order_id": 1 },
+
+    { "action": "ADD_ORDER_ITEM", "order_id": 1, "product_id": 1 }
+
+]
